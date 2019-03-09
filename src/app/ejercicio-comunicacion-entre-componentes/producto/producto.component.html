@@ -1,0 +1,5 @@
+<span *ngIf="producto">
+  La {{producto.nombre}} cuesta ${{producto.precio}}
+  <br>
+  <button (click)="comprarProducto(producto.nombre)">Comprar</button>
+</span>

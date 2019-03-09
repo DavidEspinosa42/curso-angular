@@ -1,0 +1,6 @@
+Seleccione un producto:
+<ul>
+  <li *ngFor="let producto of listadoProductos" (click)="seleccion(producto)">{{producto.nombre}}</li>​
+</ul>
+<span *ngIf="nombreProductoAComprar">Quiero comprar una {{nombreProductoAComprar}}<br><br></span>
+<app-producto [producto]="productoSeleccionado" (nombreProductoAComprar)="comprarProducto($event)"></app-producto>
