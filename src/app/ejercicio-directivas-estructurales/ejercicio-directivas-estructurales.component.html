@@ -1,0 +1,7 @@
+<span *ngIf="ciudadExiste">Rosario</span>​
+<button (click)="ciudadExiste=false">Borrar Ciudad</button>
+<br>
+<ul>
+  <li *ngFor="let ciudad of ciudades">{{ciudad}}</li>​
+</ul>
+<input #nuevaCiudad><button (click)="agregarCiudad(nuevaCiudad.value)">Agregar Ciudad</button>

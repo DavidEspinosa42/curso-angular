@@ -5,11 +5,13 @@ import { FormsModule } from "@angular/forms";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EjercicioEnlaceDeDatosComponent } from './ejercicio-enlace-de-datos/ejercicio-enlace-de-datos.component';
+import { EjercicioDirectivasEstructuralesComponent } from './ejercicio-directivas-estructurales/ejercicio-directivas-estructurales.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EjercicioEnlaceDeDatosComponent
+    EjercicioEnlaceDeDatosComponent,
+    EjercicioDirectivasEstructuralesComponent
   ],
   imports: [
     BrowserModule,
