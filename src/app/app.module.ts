@@ -11,6 +11,8 @@ import { ProductoComponent } from './ejercicio-comunicacion-entre-componentes/pr
 import { EjercicioPipesComponent } from './ejercicio-pipes/ejercicio-pipes.component';
 import { HomeComponent } from './home/home.component';
 import { NoEncontradoComponent } from './no-encontrado/no-encontrado.component';
+import { EjercicioServicioDolarComponent } from './ejercicio-servicio-dolar/ejercicio-servicio-dolar.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { NoEncontradoComponent } from './no-encontrado/no-encontrado.component';
     EjercicioPipesComponent,
     HomeComponent,
     NoEncontradoComponent,
+    EjercicioServicioDolarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

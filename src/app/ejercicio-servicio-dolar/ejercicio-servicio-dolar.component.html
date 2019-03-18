@@ -1,0 +1,7 @@
+<div *ngIf="!dolarActual">Cargando cotización del dólar...</div>
+<div *ngIf="dolarActual">
+    <p>{{dolarActual.nombre}}</p>
+    <p>Compra: {{dolarActual.compra}}</p>
+    <p>Venta: {{dolarActual.venta}}</p>
+    <p>Variación 24hs: <span [style.color]="colorPorcentaje()">{{dolarActual.porcentajeVariacion24horas}}%</span></p>
+</div>
