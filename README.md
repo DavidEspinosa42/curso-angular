@@ -1,27 +1,8 @@
-# CursoAngularDavidEspinosa
+# Curso de Angular en español.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+En este repositorio se encuentran las diapositivas que hice para un curso de Angular de 8 horas de duración que dicté a mis compañeros en Accenture Rosario.
+Además de las diapositivas hay un proyecto de Angular con todos los ejercicios resueltos.
 
-## Development server
+Mi objetivo fue crear un curso con los conceptos fundamentales de Angular usando un HTML, CSS y Typescript lo más básico posible, cosa que cualquiera con un conocimiento básico de programación pudiera resolver los ejercicios y entender los conceptos específicos de este maravilloso framework.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Espero que el contenido de este repo le sirva a cualquiera que este buscando material para dictar un cursito de estos y si le hacen alguna mejora hagan un fork y publiquen sus cambios! :D
